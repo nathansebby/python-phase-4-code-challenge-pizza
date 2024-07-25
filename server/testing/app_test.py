@@ -1,6 +1,10 @@
-from models import Restaurant, RestaurantPizza, Pizza
-from app import app, db
+from app import app,db
+from models import  Restaurant, Pizza, RestaurantPizza
 from faker import Faker
+#from werkzeug.urls import url_quote
+import pytest
+from flask_restful import Api, Resource
+
 
 
 class TestApp:
